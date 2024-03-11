@@ -6,7 +6,7 @@ disponible = {
     1:  50
 }
 
-def total_disponible():
+def total_disponible(): 
     total = 0
     for k,v in disponible.items():
         total += k*v
